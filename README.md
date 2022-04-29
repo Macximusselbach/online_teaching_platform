@@ -7,4 +7,4 @@
 
 * Linguagens: Java Script.
 * Banco de dados: MongoDB.
-* IDEs: Intellij, Visual Studio Code e Mongo Compass.
+* IDEs: Visual Studio Code e Mongo Compass.
