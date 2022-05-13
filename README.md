@@ -5,6 +5,8 @@
 
 ## Tecnologias usadas:
 
-* Linguagens: Java Script.
-* Banco de dados: MongoDB.
-* IDEs: Visual Studio Code e Mongo Compass.
+* IDEs e ferramentas: Visual Studio
+  Code, Uizard, Draw.io, Angular e Node
+* Linguagens: Javascript
+* Banco de dados: MongoDB Cloud
+* Organização e comunicação: Struso, GitHub, Discord
