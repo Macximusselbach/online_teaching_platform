@@ -8,4 +8,4 @@
   Code, Uizard, Draw.io, Angular e Node
 * Linguagens: Javascript
 * Banco de dados: MongoDB Cloud
-* Organização e comunicação: Struso, GitHub, Discord
+* Organização e comunicação: Struso e Discord
