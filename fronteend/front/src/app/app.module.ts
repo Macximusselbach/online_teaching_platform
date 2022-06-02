@@ -13,13 +13,30 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+import { SidenavComponent } from './components/templte/sidenav/sidenav.component';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatCardModule} from '@angular/material/card';
+import { PerfilViewComponent } from './views/perfil-view/perfil-view.component';
+import { AtividadesViewComponent } from './views/atividades-view/atividades-view.component';
+import { TurmaViewComponent } from './views/turma-view/turma-view.component';
+import { FooterComponent } from './components/templte/footer/footer.component';
+import { LoginServiceComponent } from './Services/login-service/login-service.component';
+import { PageServiceComponent } from './Services/page-service/page-service.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginViewComponent,
     HomeViewComponent,
-    HeaderComponent
+    HeaderComponent,
+    SidenavComponent,
+    PerfilViewComponent,
+    AtividadesViewComponent,
+    TurmaViewComponent,
+    FooterComponent,
+    LoginServiceComponent,
+    PageServiceComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +46,10 @@ import {MatIconModule} from '@angular/material/icon';
     MatFormFieldModule,
     MatInputModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    MatSidenavModule,
+    MatCardModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

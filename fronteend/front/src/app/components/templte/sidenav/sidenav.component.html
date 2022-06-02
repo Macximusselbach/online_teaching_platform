@@ -1,0 +1,26 @@
+<mat-drawer-container class="example-container">
+    <mat-drawer mode="side" opened class="left-space">
+        
+
+    </mat-drawer>
+
+
+    <mat-drawer-content class="right-space">  
+        <mat-grid-list cols="4" rowHeight="100px">
+            <mat-grid-tile
+                *ngFor="let tile of tiles"
+                [colspan]="tile.cols"
+                [rowspan]="tile.rows"
+                [style.background]="tile.color">
+              {{tile.text}}
+              <mat-card class="card">
+                <h1> Atividades </h1>
+                <a href="">
+                    <img src="../../../../assets/atividades-image.jpg" alt="" class="image">
+                </a>
+            </mat-card>
+
+            </mat-grid-tile>
+          </mat-grid-list>
+    </mat-drawer-content>
+  </mat-drawer-container>
