@@ -31,6 +31,10 @@ import {CdkTableModule} from '@angular/cdk/table';
 import { MatPaginatorModule} from "@angular/material/paginator";
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatSortModule} from '@angular/material/sort';
+import { TurmaHeaderComponent } from './components/templte/header/individuals-header/turma-header/turma-header.component';
+import { HomeHeaderComponent } from './components/templte/header/individuals-header/home-header/home-header.component';
+import { PerfilHeaderComponent } from './components/templte/header/individuals-header/perfil-header/perfil-header.component';
+import { AtividadesHeaderComponent } from './components/templte/header/individuals-header/atividades-header/atividades-header.component';
 
 
 
@@ -46,7 +50,11 @@ import {MatSortModule} from '@angular/material/sort';
     TurmaViewComponent,
     FooterComponent,
     LoginServiceComponent,
-    PageServiceComponent
+    PageServiceComponent,
+    TurmaHeaderComponent,
+    HomeHeaderComponent,
+    PerfilHeaderComponent,
+    AtividadesHeaderComponent
   ],
   imports: [
     BrowserModule,

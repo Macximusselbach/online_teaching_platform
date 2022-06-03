@@ -1,6 +1,7 @@
 import { Component, NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 import { HeaderComponent } from "./components/templte/header/header.component";
+import { AtividadesHeaderComponent } from "./components/templte/header/individuals-header/atividades-header/atividades-header.component";
 import { AtividadesViewComponent } from "./views/atividades-view/atividades-view.component";
 import { HomeViewComponent } from "./views/home-view/home-view.component";
 import { LoginViewComponent } from "./views/login-view/login-view.component";
@@ -27,6 +28,10 @@ const routes: Routes = [
     {
         path: 'Home/Atividades',
         component: AtividadesViewComponent
+    },
+    {
+        path: 'Teste',
+        component: AtividadesHeaderComponent
     },
 
 ]
