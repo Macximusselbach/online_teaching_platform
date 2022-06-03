@@ -23,6 +23,9 @@ import { TurmaViewComponent } from './views/turma-view/turma-view.component';
 import { FooterComponent } from './components/templte/footer/footer.component';
 import { LoginServiceComponent } from './Services/login-service/login-service.component';
 import { PageServiceComponent } from './Services/page-service/page-service.component';
+import {MatSelectModule} from '@angular/material/select';
+import {MatTabsModule} from '@angular/material/tabs';
+
 
 @NgModule({
   declarations: [
@@ -49,7 +52,10 @@ import { PageServiceComponent } from './Services/page-service/page-service.compo
     MatIconModule,
     MatSidenavModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    MatSelectModule,
+    MatTabsModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
