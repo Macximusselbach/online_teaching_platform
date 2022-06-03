@@ -10,27 +10,27 @@ import { TurmaViewComponent } from "./views/turma-view/turma-view.component";
 
 const routes: Routes = [
     {
-        path: '',
+        path: 'login',
         component: LoginViewComponent
     },
     {
-        path: 'Home',
+        path: 'home',
         component: HomeViewComponent
     },
     {
-        path: 'Home/Perfil',
+        path: 'home/perfil',
         component: PerfilViewComponent
     },
     {
-        path: 'Home/Turma',
+        path: 'home/turma',
         component: TurmaViewComponent
     },
     {
-        path: 'Home/Atividades',
+        path: 'home/atividades',
         component: AtividadesViewComponent
     },
     {
-        path: 'Teste',
+        path: 'teste',
         component: AtividadesHeaderComponent
     },
 

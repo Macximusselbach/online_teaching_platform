@@ -8,7 +8,7 @@ import { HomeViewComponent } from './views/home-view/home-view.component';
 import { HeaderComponent } from './components/templte/header/header.component';
 
 import { AppRoutingModule } from './app.routes';
-import {MatToolbarModule} from '@angular/material/toolbar';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';

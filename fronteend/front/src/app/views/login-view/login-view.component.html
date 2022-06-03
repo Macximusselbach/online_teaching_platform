@@ -1,45 +1,30 @@
-<mat-toolbar class="header">
-    <span>
-        <a>
-            <img src="../../../assets/caderno.png" alt="" class="caderno">
-            <h1> Student Plataform</h1>
-        </a>
-    </span>
-</mat-toolbar>
-
+<app-header></app-header>
 <H1 class="h1-login">LOGIN</H1>
 <hr>
-
 <form class="example-form">
-    
-    <span class="imput-header"> Usuario: </span>
-        <hr class="login-line">
-
+    <span class="input-header"> CPF: </span>
+    <hr class="login-line">
     <div class="div-user">
-        <mat-form-field class="imput" appearance="fill">
-            <mat-label>Usuario</mat-label>
-            <input matInput placeholder="Ex. User123" value="" >
-          </mat-form-field>
+        <mat-form-field class="input" appearance="fill">
+            <mat-label>CPF</mat-label>
+            <input matInput id="cpf" placeholder="Digite seu CPF">
+        </mat-form-field>
     </div>
-
-    <span class="imput-header"> Password: </span>
-        <hr class="login-line">
-
-    <div class="div-pass">
-        <mat-form-field class="imput" appearance="fill">
-            <mat-label>Password</mat-label>
-            <input matInput placeholder="Ex. 1234" value="" >
-      </mat-form-field>
-
+    <span class="input-header"> Senha </span>
+    <hr class="login-line">
+    <div class="div-user">
+        <mat-form-field class="input" appearance="fill">
+            <mat-label>Digite sua senha</mat-label>
+            <input matInput id="password" [type]="hide ? 'password' : 'text'">
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+                [attr.aria-pressed]="hide">
+                <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </button>
+        </mat-form-field>
     </div>
-
-
     <div class="button-class">
-            <div class="button">
-              <button mat-stroked-button class="intern-button" routerLink="/home"> Entrar</button>
-            </div>
-            
+        <div class="button">
+            <button mat-stroked-button class="intern-button" (click)="login()"> Entrar</button>
+        </div>
     </div>
-    
-    
 </form>
