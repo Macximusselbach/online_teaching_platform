@@ -25,6 +25,13 @@ import { LoginServiceComponent } from './Services/login-service/login-service.co
 import { PageServiceComponent } from './Services/page-service/page-service.component';
 import {MatSelectModule} from '@angular/material/select';
 import {MatTabsModule} from '@angular/material/tabs';
+import {MatListModule} from '@angular/material/list';
+import {MatTableModule} from '@angular/material/table';
+import {CdkTableModule} from '@angular/cdk/table';
+import { MatPaginatorModule} from "@angular/material/paginator";
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import {MatSortModule} from '@angular/material/sort';
+
 
 
 @NgModule({
@@ -54,7 +61,14 @@ import {MatTabsModule} from '@angular/material/tabs';
     MatCardModule,
     MatGridListModule,
     MatSelectModule,
-    MatTabsModule
+    MatTabsModule,
+    MatListModule,
+    MatTableModule,
+    CdkTableModule, 
+    MatPaginatorModule,
+    MatSortModule,
+    MatProgressSpinnerModule
+    
     
   ],
   providers: [],

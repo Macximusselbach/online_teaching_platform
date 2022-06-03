@@ -1,1 +1,53 @@
-<p>turma-view works!</p>
+<app-header></app-header>
+
+<div class="container">
+<div class="turma-txt">
+    <span class="texto-selector"> Digite a turma</span>
+</div>
+
+<hr>
+
+<div class="input-selector">
+  <mat-form-field class="imput" appearance="fill">
+    <mat-label>Turma</mat-label>
+    <input matInput placeholder="Ex. TI18" value="" >
+</mat-form-field>
+  <button mat-stroked-button class="button"> Buscar </button>
+</div>
+</div>
+
+
+<mat-drawer-container class="container-list">
+
+    <mat-drawer mode="side" opened class="lado-materias"> 
+
+      <div>
+        <h1> Matérias</h1>
+      </div>
+      <mat-list role="list" class="materias-list">
+        <mat-list-item role="listitem" style="border: 1px solid black;">Matematica</mat-list-item>
+        <mat-list-item role="listitem" style="border: 1px solid black;">Espanhol</mat-list-item>
+        <mat-list-item role="listitem" style="border: 1px solid black;">Ingles</mat-list-item>
+      </mat-list>
+      
+
+    </mat-drawer>
+
+    <mat-drawer-content class="lado-alunos"> 
+      
+      <div>
+        <h1> Alunos</h1>
+      </div>
+      <mat-list role="list" class="materias-list">
+        <mat-list-item role="listitem" style="border: 1px solid black;">Matematica</mat-list-item>
+        <mat-list-item role="listitem" style="border: 1px solid black;">Espanhol</mat-list-item>
+        <mat-list-item role="listitem" style="border: 1px solid black;">Ingles</mat-list-item>
+      </mat-list>
+      
+     
+    </mat-drawer-content>
+
+  </mat-drawer-container>
+
+
+<app-footer></app-footer>
