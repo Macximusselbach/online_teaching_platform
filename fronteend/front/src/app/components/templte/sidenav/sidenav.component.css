@@ -1,7 +1,7 @@
 .left-space{
 
     width: 15%;
-    background-color: blue;
+    background-color: cornsilk;
 
 }
 
@@ -45,4 +45,16 @@
 
 .content > mat-card {
     width: 200px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 3%;
+    text-shadow: 1px 1px black;
+    text-decoration-line: underline;
+}
+
+.h1-first{
+
+    margin-top: 10%;
 }
