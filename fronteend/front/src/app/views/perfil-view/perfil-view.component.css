@@ -1,0 +1,42 @@
+.image-div{
+
+    width: 100%;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+.image{
+    width: 30%;
+}
+
+.text-div{
+
+    text-align: center;
+    font-size: 150%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.title-one, .title-two{
+
+    font-size: 120%;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+.text-one, .text-two{
+
+    font-style: oblique;
+    padding-left: 1%;
+}
+
+.divider{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.text-div-final{
+
+    padding-bottom: 5%;
+}
