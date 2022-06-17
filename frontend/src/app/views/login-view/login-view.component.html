@@ -7,7 +7,7 @@
     <div class="div-user">
         <mat-form-field class="input" appearance="fill">
             <mat-label>CPF</mat-label>
-            <input matInput id="cpf" placeholder="Digite seu CPF">
+            <input matInput id="cpf">
         </mat-form-field>
     </div>
     <span class="input-header"> Senha </span>
@@ -16,7 +16,7 @@
         <mat-form-field class="input" appearance="fill">
             <mat-label>Digite sua senha</mat-label>
             <input matInput id="password" [type]="hide ? 'password' : 'text'">
-            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+            <button type="button" mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
                 [attr.aria-pressed]="hide">
                 <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
             </button>
@@ -24,7 +24,7 @@
     </div>
     <div class="button-class">
         <div class="button">
-            <button mat-stroked-button class="intern-button" (click)="login()"> Entrar</button>
+            <button mat-stroked-button class="intern-button" id="login-button"> Entrar</button>
         </div>
     </div>
 </form>

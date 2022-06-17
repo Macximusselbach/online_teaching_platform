@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -21,8 +22,8 @@ import { PerfilViewComponent } from './views/perfil-view/perfil-view.component';
 import { AtividadesViewComponent } from './views/atividades-view/atividades-view.component';
 import { TurmaViewComponent } from './views/turma-view/turma-view.component';
 import { FooterComponent } from './components/templte/footer/footer.component';
-import { LoginServiceComponent } from './Services/login-service/login-service.component';
-import { PageServiceComponent } from './Services/page-service/page-service.component';
+import { LoginServiceComponent } from './services/login-service/loginService';
+import { PageServiceComponent } from './services/page-service/page-service.component';
 import {MatSelectModule} from '@angular/material/select';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatListModule} from '@angular/material/list';
@@ -75,7 +76,8 @@ import { AtividadesHeaderComponent } from './components/templte/header/individua
     CdkTableModule, 
     MatPaginatorModule,
     MatSortModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    HttpClientModule
     
     
   ],

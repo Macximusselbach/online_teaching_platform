@@ -2,7 +2,7 @@ const express = require('express');
 const classRouter = express.Router();
 const Class = require('../infra/models/class/class.js');
 
-classRouter.get('/class', async (req, res) => {
+classRouter.get('/', async (req, res) => {
 
     try {
         const classes = await Class.find();
@@ -14,7 +14,7 @@ classRouter.get('/class', async (req, res) => {
     }
 });
 
-classRouter.get('/class/:id', async (req, res) => {
+classRouter.get('/:id', async (req, res) => {
 
     try {
         const classFound = await Class.findById(req.params.id);
@@ -32,7 +32,7 @@ classRouter.get('/class/:id', async (req, res) => {
     }
 });
 
-classRouter.post('/class', async (req, res) => {
+classRouter.post('/', async (req, res) => {
 
     try {
 

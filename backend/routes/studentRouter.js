@@ -2,7 +2,7 @@ const express = require('express');
 const studentRouter = express.Router();
 const Student = require('../infra/models/student/student.js');
 
-studentRouter.get('/student', async (req, res) => {
+studentRouter.get('/', async (req, res) => {
 
     try {
         const students = await Student.find();
@@ -14,7 +14,7 @@ studentRouter.get('/student', async (req, res) => {
     }
 });
 
-studentRouter.get('/student/:id', async (req, res) => {
+studentRouter.get('/:id', async (req, res) => {
 
     try {
         const student = await Student.findById(req.params.id);
@@ -32,7 +32,7 @@ studentRouter.get('/student/:id', async (req, res) => {
     }
 });
 
-studentRouter.post('/student', async (req, res) => {
+studentRouter.post('/', async (req, res) => {
 
     const student = new Student({
 

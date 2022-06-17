@@ -2,7 +2,7 @@ const express = require('express');
 const subjectRouter = express.Router();
 const Subjects = require('../infra/models/subjects/subjects.js');
 
-subjectRouter.get('/subject', async (req, res) => {
+subjectRouter.get('/', async (req, res) => {
 
     try {
         const subjects = await Subjects.find();

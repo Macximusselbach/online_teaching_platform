@@ -10,6 +10,10 @@ import { TurmaViewComponent } from "./views/turma-view/turma-view.component";
 
 const routes: Routes = [
     {
+        path: '',
+        component: LoginViewComponent
+    },
+    {
         path: 'login',
         component: LoginViewComponent
     },
