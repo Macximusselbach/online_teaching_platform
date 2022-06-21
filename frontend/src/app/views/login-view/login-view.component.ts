@@ -29,6 +29,7 @@ export class LoginViewComponent implements OnInit {
         console.log('achou cpf');
 
       } else {
+        e.preventDefault();
         const labelCpf = (<HTMLInputElement>document.getElementById("label-cpf"));
 
       }
