@@ -1,3 +1,7 @@
+.example-container{
+    height: 50rem;
+}
+
 .left-space{
 
     width: 15%;
@@ -51,7 +55,7 @@
 
 h1{
     text-align: center;
-    padding-top: 3%;
+    padding-top: 1rem;
     text-shadow: 1px 1px black;
     text-decoration-line: underline;
 }
@@ -59,4 +63,98 @@ h1{
 .h1-first{
 
     margin-top: 10%;
+}
+
+.first-span{
+   
+    border: 3px solid black;
+    display: -ms-inline-grid;
+    width: 70rem;
+    height: 50rem;
+    
+    
+}
+
+.second-span{
+
+    border: 3px solid black;
+    display: inline;
+    width: 27rem;
+    height: 50rem;
+    margin-top: 5px;
+    
+}
+
+.card-span{
+    border: 3px solid black;
+    display: inline;
+    height: 10rem;
+}
+
+#grid {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    background-color: cornsilk;
+    height: 50rem;
+  }
+  #grid > div {
+    background-color: cornsilk;
+    color: black;
+    font-size: 4vw;
+    padding: 15px;
+    border: 1px solid black;
+  }
+  #grid > div:nth-child(1) {
+    grid-column: span 2;
+  }
+  #grid > div:nth-child(2) {
+    grid-row: span 2;
+  }
+  #grid > div:nth-child(9) {
+    grid-column: span 3;
+  } 
+
+  .card-1{
+      height: 20rem;
+      margin-top: 1rem;
+  }
+  .card-2{
+    margin-top: 1rem;
+    height: 44.3rem;
+  }
+
+ .card-4{
+      height: 20rem;
+
+  }
+  .card-3{
+    height: 20rem;
+
+}
+
+.image-1{
+
+        width: 25rem;
+        text-align: center;
+        padding-left: 20rem;
+        
+}
+
+.image-2{
+
+    width: 27rem;
+        text-align: center;
+        padding-left: 2rem;
+        
+
+}
+
+.image-3{
+
+    width: 25rem;
+        text-align: center;
+        padding-left: 3rem;
+
 }
