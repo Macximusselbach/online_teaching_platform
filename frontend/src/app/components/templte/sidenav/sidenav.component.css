@@ -9,17 +9,19 @@
 
     width: 70%;
     background-color: red;
+    
 
 }
 
 .grid{
     background-color: cornsilk;
     
+    
 }
 
 .card{
-    width: 60%;
-    height: 60%;
+    width: 90%;
+    height: 99%;
     background-color: rgba(0, 0, 0, 0.075);
     
 }

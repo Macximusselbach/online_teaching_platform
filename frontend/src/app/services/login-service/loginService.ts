@@ -3,8 +3,6 @@ import { student } from '../../models/student/student.model';
 import { HttpClient } from "@angular/common/http";
 import { Observable } from "rxjs";
 
-@Component({})
-
 export class LoginService {
 
   Student!: student;
@@ -14,6 +12,6 @@ export class LoginService {
   constructor(private http: HttpClient) { }
 
   read(): Observable<student[]> {
-    return this.http.get<student[]>(this.defaultGetUrl);    
+    return this.http.get<student[]>(this.defaultGetUrl);
   }
 }
