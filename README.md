@@ -6,6 +6,6 @@
 
 * IDEs e ferramentas: Visual Studio
   Code, Uizard, Draw.io, Angular e Node
-* Linguagens: Javascript
-* Banco de dados: MongoDB Cloud
+* Linguagens: Javascript e Typescript
+* Banco de dados: MongoDB
 * Organização e comunicação: Struso e Discord
