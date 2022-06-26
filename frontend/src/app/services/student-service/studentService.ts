@@ -1,4 +1,4 @@
-import { student } from '../../models/student/student.model';
+import { Student } from '../../models/student/student.model';
 import { HttpClient, HttpRequest } from "@angular/common/http";
 import { Observable } from "rxjs";
 import { Injectable } from "@angular/core";
@@ -7,20 +7,20 @@ import { Injectable } from "@angular/core";
   providedIn: "root",
 })
 
-export class LoginService {
+export class StudentService {
 
-  student!: student;
+  student!: Student;
 
   defaultGetUrl = "http://localhost:3000/student";
 
   constructor(private http: HttpClient) { }
 
-  searchStudents(): Observable<student[]> {
-    return this.http.get<student[]>(this.defaultGetUrl);
+  searchStudents(): Observable<Student[]> {
+    return this.http.get<Student[]>(this.defaultGetUrl);
   }
 
-  searchStudentByCpf (cpf: string): Observable<student[]> {
-    return this.http.get<student[]>(this.defaultGetUrl + `/cpf/${cpf}`)
+  searchStudentByCpf (cpf: string): Observable<Student[]> {
+    return this.http.get<Student[]>(this.defaultGetUrl + `/cpf/${cpf}`)
   }
 
 }
