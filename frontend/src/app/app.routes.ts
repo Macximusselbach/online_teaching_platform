@@ -6,7 +6,6 @@ import { AtividadesViewComponent } from "./views/atividades-view/atividades-view
 import { HomeViewComponent } from "./views/home-view/home-view.component";
 import { LoginViewComponent } from "./views/login-view/login-view.component";
 import { PerfilViewComponent } from "./views/perfil-view/perfil-view.component";
-import { TurmaViewComponent } from "./views/turma-view/turma-view.component";
 
 const routes: Routes = [
     {
@@ -26,16 +25,8 @@ const routes: Routes = [
         component: PerfilViewComponent
     },
     {
-        path: 'home/turma',
-        component: TurmaViewComponent
-    },
-    {
         path: 'home/atividades',
         component: AtividadesViewComponent
-    },
-    {
-        path: 'teste',
-        component: AtividadesHeaderComponent
     },
 
 ]

@@ -35,7 +35,7 @@ studentRouter.get('/:id', async (req, res) => {
 studentRouter.get('/cpf/:cpf', async (req, res) => {
 
     try {
-        const student = await Student.find( {"cpf": req.params.cpf} );
+        const student = await Student.find({ "cpf": req.params.cpf });
 
         if (!student) {
             res.status(404).json({ Message: 'Student not found!' })

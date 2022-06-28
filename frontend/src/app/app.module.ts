@@ -20,7 +20,6 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatCardModule} from '@angular/material/card';
 import { PerfilViewComponent } from './views/perfil-view/perfil-view.component';
 import { AtividadesViewComponent } from './views/atividades-view/atividades-view.component';
-import { TurmaViewComponent } from './views/turma-view/turma-view.component';
 import { FooterComponent } from './components/templte/footer/footer.component';
 import { PageServiceComponent } from './services/page-service/page-service.component';
 import {MatSelectModule} from '@angular/material/select';
@@ -31,7 +30,6 @@ import {CdkTableModule} from '@angular/cdk/table';
 import { MatPaginatorModule} from "@angular/material/paginator";
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatSortModule} from '@angular/material/sort';
-import { TurmaHeaderComponent } from './components/templte/header/individuals-header/turma-header/turma-header.component';
 import { HomeHeaderComponent } from './components/templte/header/individuals-header/home-header/home-header.component';
 import { PerfilHeaderComponent } from './components/templte/header/individuals-header/perfil-header/perfil-header.component';
 import { AtividadesHeaderComponent } from './components/templte/header/individuals-header/atividades-header/atividades-header.component';
@@ -47,10 +45,8 @@ import { AtividadesHeaderComponent } from './components/templte/header/individua
     SidenavComponent,
     PerfilViewComponent,
     AtividadesViewComponent,
-    TurmaViewComponent,
     FooterComponent,
     PageServiceComponent,
-    TurmaHeaderComponent,
     HomeHeaderComponent,
     PerfilHeaderComponent,
     AtividadesHeaderComponent

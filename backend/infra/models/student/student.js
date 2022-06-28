@@ -23,14 +23,14 @@ const studentSchema = new mongoose.Schema({
         required: true
 
     },
-    class: {
-        type: String,
-        required: false
-
-    },
     password: {
         type: String,
         required: true
+
+    },
+    class: {
+        type: String,
+        required: false
 
     }
 

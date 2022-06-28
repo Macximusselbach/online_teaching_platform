@@ -138,23 +138,28 @@ h1{
 
         width: 25rem;
         text-align: center;
-        padding-left: 20rem;
+        margin-left: 13rem;
+        
         
 }
 
 .image-2{
 
-    width: 27rem;
+    width: 26rem;
         text-align: center;
-        padding-left: 2rem;
+        
         
 
 }
 
 .image-3{
 
-    width: 25rem;
+    width: 23rem;
         text-align: center;
-        padding-left: 3rem;
+        
 
+}
+
+.cursor-pointer {
+    cursor: pointer;
 }

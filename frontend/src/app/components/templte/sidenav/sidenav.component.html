@@ -2,36 +2,31 @@
     <mat-drawer mode="side" opened class="left-space">
         <h1 class="h1-first" routerLink="/home/perfil"> Perfil </h1>
         <h1 routerLink="/home/atividades"> Atividades </h1>
-        <h1> Notificacao </h1>
-        <h1> Calendario </h1>
-        <h1 routerLink="/home/turma"> Turmas </h1>
+        <h1> Notificações </h1>
+        <h1> Calendário </h1>
         <h1> Biblioteca </h1>
-        <h1> Financeiro</h1>
-
+        <h1> Financeiro </h1>
     </mat-drawer>
-
-
-    <mat-drawer-content class="right-space">  
+    <mat-drawer-content class="right-space">
         <mat-grid-list cols="3" rowHeight="100px">
             <div id="grid">
-                
                 <div class="card-1">
-                    <h1> Calendario </h1>
-                    <img src="../../../../assets/calendário-de-postagens-1080x675.png" alt="" class="image-1">
+                    <h1 class="cursor-pointer"> Calendário </h1>
+                    <img src="../../../../assets/calendário-de-postagens-1080x675.png" alt="" class="image-1 cursor-pointer">
                 </div>
                 <div class="card-2">
-                    <h1> Notificacoes </h1>
+                    <h1 class="cursor-pointer"> Notificações </h1>
                 </div>
                 <div class="card-3">
-                    <h1> Turma </h1>
-                    <img src="../../../../assets/turma.png" alt="" class="image-2">
+                    <h1 routerLink="/home/atividades" class="cursor-pointer"> Atividades </h1>
+                    <img src="../../../../assets/turma.png" alt="" class="image-2 cursor-pointer" routerLink="/home/atividades">
                 </div>
                 <div class="card-4">
                     <h1> Financeiro </h1>
-                    <img src="../../../../assets/Capa-para-conteudos-de-Financas-Pessoas-1-1024x538.png" alt="" class="image-3">
+                    <img src="../../../../assets/Capa-para-conteudos-de-Financas-Pessoas-1-1024x538.png" alt=""
+                        class="image-3">
                 </div>
-                
-              </div>
-          </mat-grid-list>
+            </div>
+        </mat-grid-list>
     </mat-drawer-content>
-  </mat-drawer-container>
+</mat-drawer-container>

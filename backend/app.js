@@ -12,12 +12,8 @@ app.use(cors());
 const dbConnection = require('./infra/database/connect.js');
 
 const studentRouter = require('./routes/studentRouter.js');
-const classRouter = require('./routes/classRouter.js');
-const subjectsRouter = require('./routes/subjectsRouter.js');
 
 app.use('/student', studentRouter);
-app.use('/class', classRouter);
-app.use('/subjects', subjectsRouter);
 
 app.listen(3000, () => {
     console.log('Running!')
