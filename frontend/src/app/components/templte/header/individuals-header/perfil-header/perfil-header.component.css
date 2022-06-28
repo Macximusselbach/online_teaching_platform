@@ -1,6 +1,6 @@
 .first-spacer{
 
-    width: 42%;
+    width: 51%;
 }
 
 .second-spacer{
@@ -14,4 +14,8 @@
 
 .abcd{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.center {
+    text-align: center;
 }
