@@ -1,6 +1,7 @@
-# online_teaching_platform (apenas a parte inicial do projeto, que estava prevista em nosso MVP)
+# online_teaching_platform
 
 * Feito por Lucas Freitas e Macximus Selbach.
+* (apenas a parte inicial do projeto, que estava prevista em nosso MVP)
 
 ## Tecnologias usadas:
 
